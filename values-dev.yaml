@@ -1,0 +1,5 @@
+configmap:
+  db_host: # Copy from amazon RDS whcich you created
+deployment:
+  imageURL: # Here mention ECR repo URL
+  version: IMAGE_VERSION

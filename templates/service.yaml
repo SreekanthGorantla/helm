@@ -1,15 +1,14 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nginx
+  name: backend
+  namespace: expense
 spec:
-  type: LoadBalancer
   selector:
-    app: nginx
-    tier: frontend
-    purpose: deployment
+    app: backend
+    tier: backend
+    project: expense
   ports:
   - protocol: TCP
-    port: 80
-    targetPort: 80
-    nodePort: {{ .Values.service.nodePort }}
+    port: 8080
+    targetPort: 8080

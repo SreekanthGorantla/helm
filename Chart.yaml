@@ -1,5 +1,5 @@
 apiVersion: v2
-name: nginx
+name: backend
 version: 1.0.0    # Chart version
-description: nginx deployment
+description: backend deployment
 appVersion: 1.0.0   # nginx Application version
