@@ -1,5 +1,5 @@
 configmap:
-  db_host: 2345 # Copy from amazon RDS whcich you created
+  db_host: expense-dev.czn6yzxlcsiv.us-east-1.rds.amazonaws.com # give your host
 deployment:
-  imageURL: 323482 # Here mention ECR repo URL
+  imageURL: 315069654700.dkr.ecr.us-east-1.amazonaws.com/expense/backend # give your image url
   version: IMAGE_VERSION
