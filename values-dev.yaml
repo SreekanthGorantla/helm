@@ -1,5 +1,5 @@
 configmap:
-  db_host: # Copy from amazon RDS whcich you created
+  db_host: 2345 # Copy from amazon RDS whcich you created
 deployment:
-  imageURL: # Here mention ECR repo URL
+  imageURL: 323482 # Here mention ECR repo URL
   version: IMAGE_VERSION
